@@ -2,16 +2,28 @@
   <div>
     <h1>Resume</h1>
 
-    <div class="paragraph">
-    I'm <strong>Christopher Smith</strong>, a versatile software developer and digital creator with over a decade of self-taught programming experience—primarily in C# and Python. 
-    <br />I excel at building robust applications, creating user-friendly interfaces, and developing immersive gaming experiences in Unity and Unreal Engine.
-    <br />Beyond coding, my skill set extends into 3D modeling, animation, and texture design. I've shipped game jam projects on itch.io and released a Python app on the Microsoft Store, surpassing 3.5k downloads.
-    <br />I also bring experience in backend/frontend development and multimedia production using Adobe After Effects, DaVinci Resolve, and Audition.
-    <br />Currently based in New Bern, NC, I'm open to roles in game development, software engineering, and other related fields. Feel free to 
-    <router-link to="/contact">contact me</router-link>.
+  <div class="paragraph">
+    I'm <strong>Christopher Smith</strong>, a versatile <strong>software developer</strong> and 
+    <strong>digital creator</strong> with over a decade of <strong>self-taught programming</strong> 
+    experience in <strong>C#</strong> and <strong>Python</strong>.
+
+    <br />I specialize in building robust applications, designing user-friendly interfaces, and 
+    creating immersive gaming experiences in Unity and Unreal Engine. In addition to game 
+    development, I have strong experience in backend and frontend programming, data analysis 
+    (pandas, NumPy), and cloud services (AWS).
+
+    <br />One of my notable projects is <strong>QHuman</strong>, a Python-based automation tool 
+    on the Microsoft Store with <strong>4,200+ downloads</strong> and a <strong>4★+ rating</strong>, 
+    showcasing my aptitude for creating efficient, real-world software solutions.
+
+    <br />I'm currently based in New Bern, NC, open to roles in game development, software 
+    engineering, data analytics, and related fields. 
+    Feel free to <router-link to="/contact">contact me</router-link> for collaboration or opportunities.
     <br />
-    <br />Outside of development, I’m passionate about continuous learning, creative problem-solving, and collaborative teamwork.
-    </div>
+    <br />Outside of development, I’m passionate about continuous learning, creative problem-solving, 
+    and collaborative teamwork.
+</div>
+
 
     <div style="clear:both"></div>
 
@@ -20,8 +32,17 @@
 
       <h3>Senior Assistant, Store Technical Support · CVS</h3>
       <h4>2021 - Present</h4>
-      <div>Provided technical assistance, troubleshooting POS systems, and network issues, enhancing problem-solving and communication skills valuable in a development environment.</div>
-      <div class="tech-stack">POS Systems, Basic Networking, Customer Support</div>
+      <div>
+        Provided technical support for hardware, prescription/insurance billing, and network issues,
+        utilizing terminal-based commands (CMD) to remotely access and troubleshoot servers/hardware.
+        Managed user accounts via Active Directory, resolved POS issues under strict deadlines,
+        and collaborated with colleagues using Outlook and Teams. Analyzed large Excel datasets
+        (e.g., prescription/insurance claims) to identify trends and address billing rejections.
+      </div>
+      <div class="tech-stack">
+        POS Systems, CMD (Terminal), Excel (Data Analysis), Active Directory, Networking, Customer Support
+      </div>
+
 
       <h3>Game Projects (Personal/Indie)</h3>
       <h4>2014 - Present</h4>
@@ -53,6 +74,7 @@
       <div class="skill-set">
         <h3>Tools & Platforms</h3>
         <div class="skill-box"><SkillRate name="AWS" :rate="3" /></div>
+        <div class="skill-box"><SkillRate name="Google Cloud" :rate="3" /></div>
         <div class="skill-box"><SkillRate name="PyCharm" :rate="4" /></div>
         <div class="skill-box"><SkillRate name="Visual Studio" :rate="4" /></div>
         <div class="skill-box"><SkillRate name="Git Version Control" :rate="4" /></div>
@@ -63,13 +85,24 @@
 
       <h2>Education</h2>
 
-      <h3>CRAVEN COMMUNITY COLLEGE, NEW BERN, NC - 2022</h3>
-      <h4>Associates in Applied Science, Information Technology (Cybersecurity & Networking)</h4>
-      <div>Secured networks, implemented firewall configurations, IP addressing schemes, and demonstrated strong problem-solving and teamwork in cybersecurity competitions.</div>
+      <h3>FAYETTEVILLE STATE UNIVERSITY, FAYETTEVILLE, NC – In Progress</h3>
+      <h4>B.S. in Computer Science (Expected Completion: 2027)</h4>
+      <div>Pursuing advanced studies in software development, algorithms, and data structures.</div>
 
       <h3>Self-Taught Developer - 10+ Years</h3>
       <h4>Continuous Learning in Game Dev & Programming</h4>
       <div>Developed projects, learned multiple languages, frameworks, engines, and design patterns, focusing on industry best practices and software craftsmanship.</div>
+    
+    <h2>Community & Open Source</h2>
+
+    <div>
+      <p>
+        I regularly publish Python tutorials and automation demos on 
+        <a href="https://www.youtube.com/@WhyNotProgram" target="_blank">WhyNotProgram</a> 
+        and 
+        <a href="https://www.youtube.com/@QHuman-Automation" target="_blank">QHuman-Automation</a>. 
+      </p>
+    </div>
     </div>
   </div>
 </template>

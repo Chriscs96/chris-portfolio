@@ -3,7 +3,7 @@ import ProjectData from '@/data/ProjectData'
 export default [
     new ProjectData("project-6", "QHuman", "img/projects/QHumanCoverPhoto.png", `
     <div class="paragraph">
-      <strong>QHuman</strong> is a automation tool for repetitive tasks, designed to mimic natural, human-like behavior. Now published on the Microsoft Store with <strong>4,000+ downloads</strong> and a <strong>4+ star rating</strong>, QHuman offers user-friendly features for clients and a robust technical foundation for those interested in its development:
+      <strong>QHuman</strong> is a automation tool for repetitive tasks, designed to mimic natural, human-like behavior. Now published on the Microsoft Store with <strong>4,200+ downloads</strong> and a <strong>4+ star rating</strong>, QHuman offers user-friendly features for clients and a robust technical foundation for those interested in its development:
       
       <img class="banner" src="img/projects/AppHomePage.png" alt="QHuman Banner" style="width:100%; margin-top:40px; margin-bottom:20px;" />
 

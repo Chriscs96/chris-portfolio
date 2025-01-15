@@ -9,7 +9,7 @@
       </div>
 
       <div style="margin-top: 20px;">
-        My expertise spans 3D modeling, rigging, animation, texturing, and game development. I've released game jam projects on itch.io and a Python app on the Microsoft Store with over 3.5k downloads. In addition to programming, I have experience in backend and frontend development, as well as video and audio production using tools like Adobe After Effects, DaVinci Resolve, and Audition.
+        My expertise spans 3D modeling, rigging, animation, texturing, and game development. I've released game jam projects on itch.io and a Python app on the Microsoft Store with over 4.2k downloads. In addition to programming, I have experience in backend and frontend development, as well as video and audio production using tools like Adobe After Effects, DaVinci Resolve, and Audition.
       </div>
 
       <div style="margin-top: 40px;">
